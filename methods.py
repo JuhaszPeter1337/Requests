@@ -26,5 +26,4 @@ url = "http://127.0.0.1:8888/user"
 res = requests.delete(url = url)
 
 print("DELETE method:\n")
-print(f"Response text:\n{res.text}")
 print(f"Response code:\n{res.status_code}")
